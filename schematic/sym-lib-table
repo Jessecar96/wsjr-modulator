@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Modulator-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/Modulator-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "RASPBERRY_PI_ZERO_2_W")(type "KiCad")(uri "${KIPRJMOD}/RASPBERRY_PI_ZERO_2_W/RASPBERRY_PI_ZERO_2_W.kicad_sym")(options "")(descr ""))
+)
