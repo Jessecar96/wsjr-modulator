@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "Modulator-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/Modulator-eagle-import.kicad_sym")(options "")(descr ""))
   (lib (name "RASPBERRY_PI_ZERO_2_W")(type "KiCad")(uri "${KIPRJMOD}/RASPBERRY_PI_ZERO_2_W/RASPBERRY_PI_ZERO_2_W.kicad_sym")(options "")(descr ""))
+  (lib (name "10164359-00011LF")(type "KiCad")(uri "${KIPRJMOD}/10164359_00011LF/10164359-00011LF.kicad_sym")(options "")(descr ""))
+  (lib (name "PJ-002B")(type "Legacy")(uri "${KIPRJMOD}/PJ-002B/PJ-002B.lib")(options "")(descr ""))
 )

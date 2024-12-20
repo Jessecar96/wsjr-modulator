@@ -2,4 +2,7 @@
   (version 7)
   (lib (name "Modulator")(type "KiCad")(uri "$(KIPRJMOD)/Modulator.pretty")(options "")(descr ""))
   (lib (name "RASPBERRY_PI_ZERO_2_W")(type "KiCad")(uri "${KIPRJMOD}/RASPBERRY_PI_ZERO_2_W")(options "")(descr ""))
+  (lib (name "10164359_00011LF")(type "KiCad")(uri "${KIPRJMOD}/10164359_00011LF")(options "")(descr ""))
+  (lib (name "PJ-002B")(type "KiCad")(uri "${KIPRJMOD}/PJ-002B")(options "")(descr ""))
+  (lib (name "AD9834")(type "KiCad")(uri "${KIPRJMOD}/AD9834.pretty")(options "")(descr ""))
 )
