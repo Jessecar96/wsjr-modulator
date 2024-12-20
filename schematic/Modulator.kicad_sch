@@ -6222,210 +6222,6 @@
 				)
 			)
 		)
-		(symbol "Modulator-eagle-import:R-US_0207/12"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at -3.81 1.4986 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -3.81 -3.302 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Modulator:0207_12"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "RESISTOR, American symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R-US_0207/12_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.159 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.159 1.016) (xy -1.524 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -1.016) (xy -0.889 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 -1.016) (xy 0.381 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 1.016) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.016) (xy 1.651 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.651 1.016) (xy 2.286 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.016) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Modulator-eagle-import:TOBU3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6605,29 +6401,50 @@
 				)
 			)
 		)
-		(symbol "Modulator-eagle-import:XO-14"
+		(symbol "Oscillator:CXO_DIP14"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "QG"
-				(at -7.62 8.255 0)
+			(property "Reference" "X"
+				(at -5.08 6.35 0)
 				(effects
 					(font
-						(size 1.778 1.5113)
+						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Value" ""
-				(at -7.62 -10.16 0)
+			(property "Value" "CXO_DIP14"
+				(at 1.27 -6.35 0)
 				(effects
 					(font
-						(size 1.778 1.5113)
+						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Modulator:DIL14S"
+			(property "Footprint" "Oscillator:Oscillator_DIP-14"
+				(at 11.43 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf"
+				(at -2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Crystal Clock Oscillator, DIP14-style metal package"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6636,7 +6453,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "ki_keywords" "Crystal Clock Oscillator"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6645,7 +6462,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "CRYSTAL"
+			(property "ki_fp_filters" "Oscillator*DIP*14*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6654,370 +6471,40 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "CXO_DIP14_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -0.635) (xy -1.27 -0.635) (xy -1.27 0.635) (xy -0.635 0.635) (xy -0.635 -0.635) (xy 0 -0.635)
+						(xy 0 0.635) (xy 0.635 0.635) (xy 0.635 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
-			(symbol "XO-14_1_0"
-				(polyline
-					(pts
-						(xy -7.62 7.62) (xy -7.62 -7.62)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 7.62) (xy 7.62 7.62)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -1.016) (xy -3.81 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 1.016) (xy -2.54 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.826 -0.381) (xy -4.826 0.381)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.826 -0.381) (xy -2.794 -0.381)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.826 0.381) (xy -2.794 0.381)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -3.175) (xy -3.81 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -3.175) (xy -1.27 -3.175)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -1.016) (xy -2.54 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 1.016) (xy -3.81 3.175)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.175) (xy -1.27 3.175)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.794 0.381) (xy -2.794 -0.381)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -1.27 -3.175)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -3.175) (xy -1.27 3.175)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 3.175) (xy -1.27 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 5.08) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 6.35 0)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 5.08) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 0) (xy -1.27 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy -7.62 -7.62)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 7.62)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "GND"
-					(at -6.985 -5.842 0)
-					(effects
-						(font
-							(size 1.524 1.2954)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "NC/TS"
-					(at 0 5.588 0)
-					(effects
-						(font
-							(size 1.524 1.2954)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "OUT"
-					(at 2.54 -5.842 0)
-					(effects
-						(font
-							(size 1.524 1.2954)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "VCC"
-					(at -6.985 4.318 0)
-					(effects
-						(font
-							(size 1.524 1.2954)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin passive line
-					(at 12.7 5.08 180)
-					(length 5.08)
-					(name "TS"
+			(symbol "CXO_DIP14_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "EN"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -7030,12 +6517,12 @@
 					)
 				)
 				(pin power_in line
-					(at -12.7 5.08 0)
-					(length 5.08)
-					(name "VCC"
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "Vcc"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -7048,12 +6535,12 @@
 					)
 				)
 				(pin power_in line
-					(at -12.7 -5.08 0)
-					(length 5.08)
+					(at 0 -7.62 90)
+					(length 2.54)
 					(name "GND"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -7066,12 +6553,12 @@
 					)
 				)
 				(pin output line
-					(at 12.7 0 180)
-					(length 5.08)
+					(at 7.62 0 180)
+					(length 2.54)
 					(name "OUT"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -8458,6 +7945,12 @@
 		(uuid "11e828c2-879f-4684-a2e1-5ed039bc762f")
 	)
 	(junction
+		(at 228.6 232.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13099089-3c40-4d64-9e62-4789c44204bc")
+	)
+	(junction
 		(at 16.51 274.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8510,12 +8003,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d0d5aa7-49e1-4974-8d6e-79ebe51442f0")
-	)
-	(junction
-		(at 201.93 224.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2fc0c184-e170-4213-8616-239d52f66b14")
 	)
 	(junction
 		(at 257.81 115.57)
@@ -8632,12 +8119,6 @@
 		(uuid "582c6f00-ea74-4925-b9f2-bd6817a2378d")
 	)
 	(junction
-		(at 217.17 214.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c552228-aea8-4fb5-94ce-918eb9f07e1c")
-	)
-	(junction
 		(at 344.17 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8680,12 +8161,6 @@
 		(uuid "6cad8200-f3bf-4fe8-b1e5-3fb30a0d5d04")
 	)
 	(junction
-		(at 250.19 219.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7240a667-04f3-444b-ad17-6a4880a7d3ad")
-	)
-	(junction
 		(at 38.1 10.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8702,6 +8177,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d70984c-55a9-416f-8813-cf0cc33bff32")
+	)
+	(junction
+		(at 201.93 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7dad89fd-3528-4246-9012-f08a1e3f96de")
 	)
 	(junction
 		(at 190.5 48.26)
@@ -8794,12 +8275,6 @@
 		(uuid "a4608c12-e105-435e-87f6-165e69bde66d")
 	)
 	(junction
-		(at 201.93 214.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad43d234-3401-4936-8a3b-409f29619f25")
-	)
-	(junction
 		(at 154.94 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8882,6 +8357,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d73a8d17-6a1d-4b1e-8b4b-6d20356a5cf2")
+	)
+	(junction
+		(at 250.19 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d894144b-39b9-4f0b-a004-61e26c1c3a97")
 	)
 	(junction
 		(at 270.51 212.09)
@@ -9863,16 +9344,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 214.63) (xy 217.17 214.63)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "05a86fc9-aee6-4914-8e82-67142b96a305")
-	)
-	(wire
-		(pts
 			(xy 7.62 22.86) (xy 7.62 10.16)
 		)
 		(stroke
@@ -10030,6 +9501,16 @@
 			(type default)
 		)
 		(uuid "0e41d5ea-00c4-4e66-9e97-9994cca5062b")
+	)
+	(wire
+		(pts
+			(xy 283.21 135.89) (xy 284.48 135.89)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0f7c1943-e92b-41d4-b2f9-eac3e25376da")
 	)
 	(wire
 		(pts
@@ -10220,16 +9701,6 @@
 			(type default)
 		)
 		(uuid "1a32aea5-2fac-49f7-a600-33ca7990dc80")
-	)
-	(wire
-		(pts
-			(xy 250.19 219.71) (xy 250.19 212.09)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "1aa100b7-0e58-40c6-ac89-887e86ec22eb")
 	)
 	(wire
 		(pts
@@ -10430,6 +9901,16 @@
 			(type default)
 		)
 		(uuid "231669e2-54b9-42ae-87d1-6f31c53c8c09")
+	)
+	(wire
+		(pts
+			(xy 201.93 219.71) (xy 201.93 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2373746a-79d0-492b-9799-bef222c0c546")
 	)
 	(wire
 		(pts
@@ -11273,6 +10754,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 215.9) (xy 250.19 212.09)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "556b93ca-068b-4883-bd20-9ccf91d3d93f")
+	)
+	(wire
+		(pts
 			(xy 109.22 256.54) (xy 109.22 274.32)
 		)
 		(stroke
@@ -11303,16 +10794,6 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 133.35) (xy 293.37 133.35)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "56ccd0a2-0be2-4100-8ffe-9dd8bcb95a36")
-	)
-	(wire
-		(pts
 			(xy 115.57 180.34) (xy 123.19 180.34)
 		)
 		(stroke
@@ -11330,6 +10811,16 @@
 			(type solid)
 		)
 		(uuid "57648dff-c814-4353-881f-56a153c90bce")
+	)
+	(wire
+		(pts
+			(xy 228.6 223.52) (xy 228.6 232.41)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5841c8aa-a5c7-4266-a5ae-f876589c6f7e")
 	)
 	(wire
 		(pts
@@ -11671,6 +11162,16 @@
 		)
 		(uuid "67f883fc-834d-4b49-8744-142c9c28761f")
 	)
+	(wire
+		(pts
+			(xy 236.22 215.9) (xy 250.19 215.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6889470f-f617-429a-8999-1b7fd5434fba")
+	)
 	(bus
 		(pts
 			(xy 128.27 132.08) (xy 128.27 134.62)
@@ -11873,6 +11374,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 204.47) (xy 201.93 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70e6f683-58d8-4826-b3d5-866e0fd4660c")
+	)
+	(wire
+		(pts
 			(xy 195.58 110.49) (xy 190.5 110.49)
 		)
 		(stroke
@@ -12013,7 +11524,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 133.35) (xy 278.13 133.35)
+			(xy 278.13 133.35) (xy 284.48 133.35)
 		)
 		(stroke
 			(width 0.1524)
@@ -12043,7 +11554,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 232.41) (xy 201.93 232.41)
+			(xy 278.13 232.41) (xy 228.6 232.41)
 		)
 		(stroke
 			(width 0.1524)
@@ -12230,16 +11741,6 @@
 			(type solid)
 		)
 		(uuid "84cb87fe-6a7e-4536-8a01-e71614b5649c")
-	)
-	(wire
-		(pts
-			(xy 242.57 219.71) (xy 250.19 219.71)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "855a3fd5-b00b-4772-8949-96aca727f60b")
 	)
 	(wire
 		(pts
@@ -12633,13 +12134,13 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 240.03) (xy 250.19 219.71)
+			(xy 250.19 215.9) (xy 250.19 240.03)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "99ebfb6f-eda7-486a-80e2-ce330d1810fd")
+		(uuid "99d1c88b-48c5-4e63-9f66-32bef67e94d0")
 	)
 	(wire
 		(pts
@@ -12860,16 +12361,6 @@
 			(type default)
 		)
 		(uuid "a52d8494-3728-43aa-b839-350390ae860d")
-	)
-	(wire
-		(pts
-			(xy 217.17 224.79) (xy 201.93 224.79)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "a53b80aa-aedd-41e0-8e02-cf7a8b73ff26")
 	)
 	(bus
 		(pts
@@ -13220,6 +12711,16 @@
 			(type solid)
 		)
 		(uuid "b437906d-2416-4409-9739-fe3a41ab440b")
+	)
+	(wire
+		(pts
+			(xy 228.6 208.28) (xy 228.6 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5bc1732-dc12-45a0-841a-037fdaa60a9d")
 	)
 	(wire
 		(pts
@@ -13600,16 +13101,6 @@
 			(type default)
 		)
 		(uuid "c7fa71bf-866c-461d-ab01-388cebdd6d94")
-	)
-	(wire
-		(pts
-			(xy 201.93 224.79) (xy 201.93 232.41)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c8b482d4-a10f-41ce-8a6a-42136ac79a25")
 	)
 	(wire
 		(pts
@@ -14043,16 +13534,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 214.63) (xy 201.93 214.63)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "e4016580-35bb-4d14-9685-0f1fe044c945")
-	)
-	(wire
-		(pts
 			(xy 114.3 10.16) (xy 119.38 10.16)
 		)
 		(stroke
@@ -14070,6 +13551,16 @@
 			(type default)
 		)
 		(uuid "e5a8a643-31d4-43a7-b08b-3ae5f9949aca")
+	)
+	(wire
+		(pts
+			(xy 228.6 232.41) (xy 201.93 232.41)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e5c553ed-1bb7-476f-bb0b-02131b5de791")
 	)
 	(wire
 		(pts
@@ -14093,7 +13584,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 217.17) (xy 201.93 214.63)
+			(xy 201.93 199.39) (xy 201.93 204.47)
 		)
 		(stroke
 			(width 0.1524)
@@ -14110,6 +13601,16 @@
 			(type solid)
 		)
 		(uuid "e7119cfb-651c-4eff-8d87-61300130885f")
+	)
+	(wire
+		(pts
+			(xy 292.1 133.35) (xy 295.91 133.35)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e761c942-8952-4f9c-808b-ef36717bb98a")
 	)
 	(wire
 		(pts
@@ -14343,16 +13844,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 209.55) (xy 201.93 214.63)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "ef6467dd-390e-438d-923b-e4a858b10763")
-	)
-	(wire
-		(pts
 			(xy 123.19 177.8) (xy 123.19 180.34)
 		)
 		(stroke
@@ -14390,6 +13881,16 @@
 			(type solid)
 		)
 		(uuid "f1500f62-535d-4494-a8ed-0ac4332c368c")
+	)
+	(wire
+		(pts
+			(xy 201.93 204.47) (xy 201.93 212.09)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f1cfaa75-0788-446c-932b-7c4bec1c653c")
 	)
 	(wire
 		(pts
@@ -16645,8 +16146,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Modulator-eagle-import:R-US_0207/12")
-		(at 288.29 133.35 180)
+		(lib_id "Device:R")
+		(at 288.29 133.35 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16654,7 +16155,7 @@
 		(dnp no)
 		(uuid "2a74d932-b1ce-4151-901f-de6a043c0f7d")
 		(property "Reference" "R2"
-			(at 292.1 134.8486 0)
+			(at 286.766 136.906 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16663,7 +16164,7 @@
 			)
 		)
 		(property "Value" "680K"
-			(at 292.1 130.048 0)
+			(at 285.242 132.08 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16671,7 +16172,16 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Modulator:0207_12"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 288.29 131.572 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 288.29 133.35 0)
 			(effects
 				(font
@@ -16680,16 +16190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 288.29 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 288.29 133.35 0)
 			(effects
 				(font
@@ -20011,7 +19512,7 @@
 	)
 	(symbol
 		(lib_id "Modulator-eagle-import:C-US050-025X075")
-		(at 201.93 219.71 0)
+		(at 201.93 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20019,7 +19520,7 @@
 		(dnp no)
 		(uuid "c0356f14-3ce3-4599-bfe6-192ab5109712")
 		(property "Reference" "C3"
-			(at 202.946 219.075 0)
+			(at 202.946 213.995 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -20028,7 +19529,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 202.946 223.901 0)
+			(at 202.946 218.821 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -20037,7 +19538,7 @@
 			)
 		)
 		(property "Footprint" "Modulator:C050-025X075"
-			(at 201.93 219.71 0)
+			(at 201.93 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20046,7 +19547,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 219.71 0)
+			(at 201.93 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20055,7 +19556,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 219.71 0)
+			(at 201.93 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20260,8 +19761,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Modulator-eagle-import:XO-14")
-		(at 229.87 219.71 0)
+		(lib_id "Oscillator:CXO_DIP14")
+		(at 228.6 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20269,7 +19770,7 @@
 		(dnp no)
 		(uuid "c3cf6cf4-8a8d-49de-9328-a7a06d3102c6")
 		(property "Reference" "X2"
-			(at 222.25 211.455 0)
+			(at 220.98 207.645 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -20278,7 +19779,7 @@
 			)
 		)
 		(property "Value" "15.9744Mhz"
-			(at 222.25 229.87 0)
+			(at 211.074 223.774 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -20286,8 +19787,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Modulator:DIL14S"
-			(at 229.87 219.71 0)
+		(property "Footprint" "Oscillator:Oscillator_DIP-14"
+			(at 240.03 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20295,8 +19796,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 229.87 219.71 0)
+		(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf"
+			(at 226.06 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20304,8 +19805,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 229.87 219.71 0)
+		(property "Description" "Crystal Clock Oscillator, DIP14-style metal package"
+			(at 228.6 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20459,7 +19960,7 @@
 	)
 	(symbol
 		(lib_id "Modulator-eagle-import:+5V")
-		(at 201.93 207.01 0)
+		(at 201.93 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20467,7 +19968,7 @@
 		(dnp no)
 		(uuid "c876dddf-dcb0-4e5d-97a5-a6836d6267cf")
 		(property "Reference" "#P+01"
-			(at 201.93 207.01 0)
+			(at 201.93 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20476,7 +19977,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 199.39 212.09 90)
+			(at 199.39 201.93 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -20485,7 +19986,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 207.01 0)
+			(at 201.93 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20494,7 +19995,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 207.01 0)
+			(at 201.93 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20503,7 +20004,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 207.01 0)
+			(at 201.93 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
