@@ -7981,10 +7981,28 @@
 		(uuid "1c11a617-97c1-4196-b448-0e93e76c0dd1")
 	)
 	(junction
+		(at 200.66 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c8ac1e3-712f-4f8d-82e2-197c14af6d1c")
+	)
+	(junction
+		(at 190.5 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "208287c9-5224-4302-a95e-98d7fee71ee8")
+	)
+	(junction
 		(at 58.42 274.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2675f1f0-fee9-44c3-843c-faa212ed2f10")
+	)
+	(junction
+		(at 160.02 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26bb26de-27fd-4ba4-a240-7442812b7aa5")
 	)
 	(junction
 		(at 267.97 163.83)
@@ -8131,6 +8149,12 @@
 		(uuid "609bee40-b99b-48ad-bff2-568e5a247a32")
 	)
 	(junction
+		(at 236.22 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "637cbf50-099c-4c19-b9c3-b33b4b0f7697")
+	)
+	(junction
 		(at 344.17 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8161,6 +8185,12 @@
 		(uuid "6cad8200-f3bf-4fe8-b1e5-3fb30a0d5d04")
 	)
 	(junction
+		(at 175.26 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "702aa443-cc64-4ffa-9785-97e1c2bca415")
+	)
+	(junction
 		(at 38.1 10.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8183,6 +8213,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7dad89fd-3528-4246-9012-f08a1e3f96de")
+	)
+	(junction
+		(at 154.94 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f8ebd27-93d7-4548-b9de-bc3f3856eb2f")
+	)
+	(junction
+		(at 219.71 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80510fae-124a-4d8f-89bb-47441544ec86")
 	)
 	(junction
 		(at 190.5 48.26)
@@ -8417,6 +8459,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f04c3ba1-d1db-4333-a1f1-bdcd139d3fbd")
+	)
+	(junction
+		(at 242.57 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f112fadf-cca3-41b4-a7bb-4935e5288146")
 	)
 	(junction
 		(at 123.19 177.8)
@@ -9234,6 +9282,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 88.9) (xy 212.09 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0115da83-7e65-4779-b54d-a4f1a38f5329")
+	)
+	(wire
+		(pts
 			(xy 13.97 257.81) (xy 13.97 274.32)
 		)
 		(stroke
@@ -9304,7 +9362,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 55.88) (xy 242.57 111.76)
+			(xy 242.57 55.88) (xy 242.57 85.09)
 		)
 		(stroke
 			(width 0)
@@ -9371,6 +9429,16 @@
 			(type solid)
 		)
 		(uuid "07494c6d-2cad-4544-ba54-e737e8fea5c9")
+	)
+	(wire
+		(pts
+			(xy 146.05 85.09) (xy 154.94 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0759549f-4c04-4456-8881-f54b4ee497fc")
 	)
 	(wire
 		(pts
@@ -9792,6 +9860,16 @@
 		)
 		(uuid "1ca00dd4-c084-4636-95b4-c15f0d06b850")
 	)
+	(wire
+		(pts
+			(xy 212.09 96.52) (xy 212.09 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ea46535-7e44-414a-adb6-e408f4b1aa23")
+	)
 	(bus
 		(pts
 			(xy 257.81 158.75) (xy 257.81 161.29)
@@ -9944,6 +10022,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 85.09) (xy 190.5 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25956ba8-a062-4899-9a1e-b071e867266e")
+	)
+	(wire
+		(pts
 			(xy 356.87 143.51) (xy 308.61 143.51)
 		)
 		(stroke
@@ -10064,7 +10152,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 48.26) (xy 236.22 110.49)
+			(xy 236.22 48.26) (xy 236.22 85.09)
 		)
 		(stroke
 			(width 0)
@@ -10101,6 +10189,16 @@
 			(type solid)
 		)
 		(uuid "32b76cdf-f38b-47af-ae6a-85da80256eff")
+	)
+	(wire
+		(pts
+			(xy 181.61 95.25) (xy 181.61 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3306c131-4f1a-48f3-a940-13b1b51e7cd4")
 	)
 	(wire
 		(pts
@@ -10402,6 +10500,26 @@
 		)
 		(uuid "40eb8d40-7f92-4f5a-9c72-6a8760920072")
 	)
+	(wire
+		(pts
+			(xy 154.94 85.09) (xy 154.94 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40ed59b2-1675-4b19-89a2-1f5aeadd17f8")
+	)
+	(wire
+		(pts
+			(xy 236.22 85.09) (xy 236.22 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4115c975-026d-4ce8-975a-9b10a88831bf")
+	)
 	(bus
 		(pts
 			(xy 218.44 134.62) (xy 218.44 137.16)
@@ -10464,6 +10582,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 90.17) (xy 146.05 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46439dcd-4868-4366-afaa-414a271b1bfa")
+	)
+	(wire
+		(pts
 			(xy 227.33 110.49) (xy 236.22 110.49)
 		)
 		(stroke
@@ -10491,6 +10619,16 @@
 			(type solid)
 		)
 		(uuid "47522649-2cf8-45db-ac23-cc88bb0f36df")
+	)
+	(wire
+		(pts
+			(xy 175.26 97.79) (xy 175.26 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47959354-1687-4b96-a7b2-f1533caa1408")
 	)
 	(bus
 		(pts
@@ -10794,6 +10932,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 87.63) (xy 167.64 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56c2e431-e72a-4366-bb25-5dbdac227196")
+	)
+	(wire
+		(pts
 			(xy 115.57 180.34) (xy 123.19 180.34)
 		)
 		(stroke
@@ -10884,6 +11032,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 96.52) (xy 250.19 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c759798-7941-46c4-9b83-791a85c9c6f9")
+	)
+	(wire
+		(pts
 			(xy 420.37 72.39) (xy 407.67 72.39)
 		)
 		(stroke
@@ -10961,6 +11119,16 @@
 			(type default)
 		)
 		(uuid "5fdfcff9-ccfb-405e-8bd0-d5d469362f9a")
+	)
+	(wire
+		(pts
+			(xy 228.6 85.09) (xy 236.22 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "602ee65a-1938-484b-99d4-810d56a2a24e")
 	)
 	(wire
 		(pts
@@ -11164,6 +11332,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 85.09) (xy 160.02 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "687e4722-0c12-42b6-9e00-14adf6ff27b6")
+	)
+	(wire
+		(pts
 			(xy 236.22 215.9) (xy 250.19 215.9)
 		)
 		(stroke
@@ -11234,7 +11412,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 55.88) (xy 160.02 111.76)
+			(xy 160.02 55.88) (xy 160.02 85.09)
 		)
 		(stroke
 			(width 0)
@@ -11274,6 +11452,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 85.09) (xy 200.66 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c49deab-df64-4fa0-8342-e6008f84fb3f")
+	)
+	(wire
+		(pts
 			(xy 115.57 111.76) (xy 125.73 111.76)
 		)
 		(stroke
@@ -11281,6 +11469,16 @@
 			(type default)
 		)
 		(uuid "6ca5a90b-1bb3-441a-8dfd-5614cf8f4e72")
+	)
+	(wire
+		(pts
+			(xy 200.66 85.09) (xy 212.09 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cb8feed-c321-4659-8c38-5971a7c54d99")
 	)
 	(wire
 		(pts
@@ -11614,6 +11812,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 88.9) (xy 250.19 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b7550d7-6b66-4086-be9a-fd9017f01b49")
+	)
+	(wire
+		(pts
 			(xy 181.61 110.49) (xy 181.61 119.38)
 		)
 		(stroke
@@ -11721,6 +11929,16 @@
 			(type default)
 		)
 		(uuid "83d6d78c-81c1-4844-ae26-2f60b712e84d")
+	)
+	(wire
+		(pts
+			(xy 228.6 99.06) (xy 228.6 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84582f3c-633c-437b-9d94-0cf549354c44")
 	)
 	(wire
 		(pts
@@ -12074,6 +12292,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 88.9) (xy 228.6 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96e47357-9610-4bb7-ad98-b1fab13287c0")
+	)
+	(wire
+		(pts
 			(xy 16.51 248.92) (xy 16.51 254)
 		)
 		(stroke
@@ -12151,6 +12379,16 @@
 			(type default)
 		)
 		(uuid "9a541391-1065-4dee-94a9-cc77216bcaf3")
+	)
+	(wire
+		(pts
+			(xy 181.61 85.09) (xy 190.5 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b3556f1-425f-43c5-b060-72de124432bc")
 	)
 	(wire
 		(pts
@@ -12362,6 +12600,16 @@
 		)
 		(uuid "a52d8494-3728-43aa-b839-350390ae860d")
 	)
+	(wire
+		(pts
+			(xy 167.64 97.79) (xy 175.26 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5b17cff-4d78-437c-9f01-ec6471154c98")
+	)
 	(bus
 		(pts
 			(xy 214.63 106.68) (xy 257.81 106.68)
@@ -12421,6 +12669,16 @@
 			(type solid)
 		)
 		(uuid "a722c936-7539-45ff-b44b-458401e011c2")
+	)
+	(wire
+		(pts
+			(xy 212.09 99.06) (xy 219.71 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a743179d-fa49-449e-aa7d-833a2ec2fe20")
 	)
 	(wire
 		(pts
@@ -12504,7 +12762,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 48.26) (xy 190.5 110.49)
+			(xy 190.5 48.26) (xy 190.5 85.09)
 		)
 		(stroke
 			(width 0)
@@ -12584,6 +12842,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 85.09) (xy 242.57 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af8963dc-6e61-4295-b9e1-277c2135b104")
+	)
+	(wire
+		(pts
 			(xy 128.27 142.24) (xy 130.81 142.24)
 		)
 		(stroke
@@ -12651,6 +12919,16 @@
 			(type default)
 		)
 		(uuid "b178fe68-4f7d-4979-8ce9-92d2b641c2d0")
+	)
+	(wire
+		(pts
+			(xy 219.71 99.06) (xy 228.6 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b28c52c4-7a42-4382-a7e6-cf8cf3e6d10a")
 	)
 	(wire
 		(pts
@@ -12831,6 +13109,16 @@
 			(type default)
 		)
 		(uuid "bdf7a5f2-f864-4122-9ec4-d1ee2be0eb14")
+	)
+	(wire
+		(pts
+			(xy 181.61 87.63) (xy 181.61 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be3af12d-3692-49cc-94c7-7abf56716eac")
 	)
 	(wire
 		(pts
@@ -13044,6 +13332,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 97.79) (xy 181.61 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c62e2669-df76-4254-abb2-f6fd55c3ba6a")
+	)
+	(wire
+		(pts
 			(xy 115.57 154.94) (xy 125.73 154.94)
 		)
 		(stroke
@@ -13224,6 +13522,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 85.09) (xy 250.19 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdbba0c8-0d9e-4f6d-862f-7e36309efa45")
+	)
+	(wire
+		(pts
 			(xy 123.19 170.18) (xy 123.19 172.72)
 		)
 		(stroke
@@ -13304,7 +13612,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 48.26) (xy 154.94 110.49)
+			(xy 154.94 48.26) (xy 154.94 85.09)
 		)
 		(stroke
 			(width 0)
@@ -13351,6 +13659,16 @@
 			(type default)
 		)
 		(uuid "d55abf87-83a0-481c-aa44-3b83da0ff8cf")
+	)
+	(wire
+		(pts
+			(xy 146.05 97.79) (xy 146.05 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5744b27-f3ed-40a3-9a88-082991737210")
 	)
 	(bus
 		(pts
@@ -13524,7 +13842,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 55.88) (xy 200.66 111.76)
+			(xy 200.66 55.88) (xy 200.66 85.09)
 		)
 		(stroke
 			(width 0)
@@ -13721,6 +14039,16 @@
 			(type solid)
 		)
 		(uuid "ea83c101-2a19-4c45-b6ee-405eaf4344f6")
+	)
+	(wire
+		(pts
+			(xy 167.64 95.25) (xy 167.64 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaf5e76f-daa5-49ff-9f3c-dc3699f200a5")
 	)
 	(wire
 		(pts
@@ -13991,6 +14319,16 @@
 			(type default)
 		)
 		(uuid "f6b394cc-313b-49a1-b737-802d52b33d22")
+	)
+	(wire
+		(pts
+			(xy 160.02 85.09) (xy 160.02 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6cc04c9-3950-466d-8b32-42e6532f6b75")
 	)
 	(wire
 		(pts
@@ -15692,6 +16030,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Modulator-eagle-import:C-US050-025X075")
+		(at 212.09 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0acd8e9a-9451-4756-900c-b6497991f24f")
+		(property "Reference" "C15"
+			(at 208.026 90.805 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100nF"
+			(at 205.486 98.171 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Modulator:C050-025X075"
+			(at 212.09 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 212.09 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7343c78e-5f25-4ce6-bd1d-caa64d7d05b4")
+		)
+		(pin "2"
+			(uuid "eb44d5e5-f46f-4514-8106-3b468450baff")
+		)
+		(instances
+			(project "Modulator"
+				(path "/32684964-aee7-4cbe-bac8-9927a2ba3460"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Modulator-eagle-import:GND")
 		(at 53.34 50.8 0)
 		(unit 1)
@@ -15858,6 +16265,75 @@
 			(project ""
 				(path "/32684964-aee7-4cbe-bac8-9927a2ba3460"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Modulator-eagle-import:C-US050-025X075")
+		(at 250.19 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1233dccf-953b-47cf-b7cd-b8b3c144ce20")
+		(property "Reference" "C17"
+			(at 246.126 90.805 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100nF"
+			(at 243.586 98.171 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Modulator:C050-025X075"
+			(at 250.19 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 250.19 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bac4c77-23af-414e-b218-9215de01b83f")
+		)
+		(pin "2"
+			(uuid "b62e949f-b97d-47d6-8dd0-460cd74d08d0")
+		)
+		(instances
+			(project "Modulator"
+				(path "/32684964-aee7-4cbe-bac8-9927a2ba3460"
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -16596,6 +17072,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Modulator-eagle-import:GND")
+		(at 219.71 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "354355ce-ea7c-453f-ad27-b2f7b70a2d4a")
+		(property "Reference" "#GND09"
+			(at 219.71 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 104.14 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6af3cb7-0851-4b99-822b-f05f4e5cd22d")
+		)
+		(instances
+			(project "Modulator"
+				(path "/32684964-aee7-4cbe-bac8-9927a2ba3460"
+					(reference "#GND09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "10164359-00011LF:10164359-00011LF")
 		(at 36.83 248.92 0)
 		(unit 1)
@@ -17214,6 +17756,75 @@
 			(project ""
 				(path "/32684964-aee7-4cbe-bac8-9927a2ba3460"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Modulator-eagle-import:C-US050-025X075")
+		(at 181.61 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e68b641-e03e-4fb0-920b-9d5a0ede4191")
+		(property "Reference" "C2"
+			(at 177.546 89.535 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100nF"
+			(at 175.006 96.901 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Modulator:C050-025X075"
+			(at 181.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4eb30a78-989b-41af-907a-950538c54ee8")
+		)
+		(pin "2"
+			(uuid "a080d6e6-6a16-4923-a938-c50e5d12bcdb")
+		)
+		(instances
+			(project "Modulator"
+				(path "/32684964-aee7-4cbe-bac8-9927a2ba3460"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -18088,6 +18699,72 @@
 	)
 	(symbol
 		(lib_id "Modulator-eagle-import:GND")
+		(at 146.05 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72e1598a-2ec8-4bc2-8fcc-240fcf3591ff")
+		(property "Reference" "#GND06"
+			(at 146.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 104.14 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c884d9ec-fad8-4b44-b513-cb07d6ed427e")
+		)
+		(instances
+			(project "Modulator"
+				(path "/32684964-aee7-4cbe-bac8-9927a2ba3460"
+					(reference "#GND06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Modulator-eagle-import:GND")
 		(at 40.64 280.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18445,6 +19122,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Modulator-eagle-import:C-US050-025X075")
+		(at 146.05 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "874a04a5-5a5e-4cec-935f-6c47a1c1cb35")
+		(property "Reference" "C6"
+			(at 141.986 92.075 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100nF"
+			(at 139.446 99.441 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Modulator:C050-025X075"
+			(at 146.05 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "206dba04-a078-4f5f-8088-7223cc9817d0")
+		)
+		(pin "2"
+			(uuid "ddd7f5d2-e53b-4803-a7af-df3a9cae78b9")
+		)
+		(instances
+			(project "Modulator"
+				(path "/32684964-aee7-4cbe-bac8-9927a2ba3460"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Logic_LevelTranslator:TXS0108EPW")
 		(at 157.48 129.54 0)
 		(unit 1)
@@ -18563,6 +19309,72 @@
 			(project ""
 				(path "/32684964-aee7-4cbe-bac8-9927a2ba3460"
 					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Modulator-eagle-import:GND")
+		(at 250.19 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89393a76-2814-45bc-a84d-59bba4b3748a")
+		(property "Reference" "#GND010"
+			(at 250.19 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 247.65 104.14 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 250.19 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2499a093-6fa3-4160-b832-958b1d57f881")
+		)
+		(instances
+			(project "Modulator"
+				(path "/32684964-aee7-4cbe-bac8-9927a2ba3460"
+					(reference "#GND010")
 					(unit 1)
 				)
 			)
@@ -18712,6 +19524,144 @@
 				(path "/32684964-aee7-4cbe-bac8-9927a2ba3460"
 					(reference "U2")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Modulator-eagle-import:C-US050-025X075")
+		(at 167.64 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89718046-43f8-4141-b17c-b4e467f51530")
+		(property "Reference" "C1"
+			(at 163.576 89.535 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100nF"
+			(at 161.036 96.901 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Modulator:C050-025X075"
+			(at 167.64 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da5517a1-b7da-4463-bc23-5e29651f9126")
+		)
+		(pin "2"
+			(uuid "141e5d26-9927-4446-9e24-63cbc23c25f2")
+		)
+		(instances
+			(project "Modulator"
+				(path "/32684964-aee7-4cbe-bac8-9927a2ba3460"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Modulator-eagle-import:C-US050-025X075")
+		(at 228.6 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91f2e62b-8e5b-4686-b69a-51c6bf039a08")
+		(property "Reference" "C16"
+			(at 224.536 90.805 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100nF"
+			(at 221.996 98.171 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Modulator:C050-025X075"
+			(at 228.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2029e184-b4c7-4a2c-a669-e03642e673af")
+		)
+		(pin "2"
+			(uuid "8a26069f-6940-4e6d-b5d9-30757719ef28")
+		)
+		(instances
+			(project "Modulator"
+				(path "/32684964-aee7-4cbe-bac8-9927a2ba3460"
+					(reference "C16")
+					(unit 1)
 				)
 			)
 		)
@@ -20937,6 +21887,72 @@
 			(project ""
 				(path "/32684964-aee7-4cbe-bac8-9927a2ba3460"
 					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Modulator-eagle-import:GND")
+		(at 175.26 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4eb15e3-853d-421d-8cf1-da3c3bc75de5")
+		(property "Reference" "#GND04"
+			(at 175.26 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 104.14 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "368abd8c-c1f8-47d6-9cc7-7d0b18ec620e")
+		)
+		(instances
+			(project "Modulator"
+				(path "/32684964-aee7-4cbe-bac8-9927a2ba3460"
+					(reference "#GND04")
 					(unit 1)
 				)
 			)
