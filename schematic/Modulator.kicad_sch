@@ -15987,7 +15987,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Modulator:C050-025X075"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 22.86 25.4 0)
 			(effects
 				(font
@@ -17515,7 +17515,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Modulator:C050-025X075"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 288.29 125.73 0)
 			(effects
 				(font
@@ -17719,7 +17719,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Modulator:C050-025X075"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 290.83 90.17 0)
 			(effects
 				(font
@@ -17857,7 +17857,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Modulator:C050-025X075"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 53.34 25.4 0)
 			(effects
 				(font
@@ -18549,7 +18549,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Modulator:C050-025X075"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 99.06 25.4 0)
 			(effects
 				(font
@@ -18944,7 +18944,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Modulator:C050-025X075"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 68.58 25.4 0)
 			(effects
 				(font
@@ -19013,7 +19013,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Modulator:C050-025X075"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 7.62 25.4 0)
 			(effects
 				(font
@@ -19923,7 +19923,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Modulator:C050-025X075"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 114.3 25.4 0)
 			(effects
 				(font
@@ -20487,7 +20487,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Modulator:C050-025X075"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 201.93 214.63 0)
 			(effects
 				(font
@@ -21491,7 +21491,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Modulator:C050-025X075"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 38.1 25.4 0)
 			(effects
 				(font
@@ -21605,7 +21605,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e37b86e0-be1e-4fa1-a2ff-2e46dc423b24")
@@ -22091,7 +22091,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Modulator:C050-025X075"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 83.82 25.4 0)
 			(effects
 				(font
