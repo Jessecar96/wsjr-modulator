@@ -1,11 +1,9 @@
-This is the working design of the Weather STAR Jr Subcarrier modulator PCB and example code. 
+# The Weather STAR Revamped
 
-This is not a rounded solution that includes data, instead this is the hardware part necessary to communicate with the weatherstar itself. 
+This project is an update to https://github.com/thetechknight/wsjr-modulator that replaces the Arduino Mega, with a Reaspberry Pi Zero. This allows you to write a data sending solution on device instead of requiring a connection to another computer or server for data.
 
-There is an example file that encodes a simple frame and sends it over to the unit. You will be required to write your own solution for sending teletext frames. 
-
-the example code is written in BASCOM-AVR, and targets the Arduino Mega. the PCB plugs into the Arduino Mega with a ribbon cable. 
-
-the FSK Modulator is a simple AD9835 chinese breakout PCB with all of the supporting components on-board. 
+The `schematic` folder contains the updated schematic and board layout files in KiCad 8. 
+`schematic_orig` contains thetechknight's original EAGLE cad schematic.
+`code` contains code written for the Arduino based board written for  BASCOM-AVR.
 
 License: https://creativecommons.org/licenses/by-nc-sa/4.0/
