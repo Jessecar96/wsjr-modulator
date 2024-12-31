@@ -3052,7 +3052,7 @@
 		(at 151.0511 76.2636 -90)
 		(descr "Dual In Line Package")
 		(property "Reference" "U6"
-			(at -14.0336 1.0641 0)
+			(at -9.0806 1.3181 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "4eef5096-d420-48c1-967b-d8eb2142f968")
@@ -3886,7 +3886,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.7*2.5mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.7mm width 2.5mm Capacitor")
 		(property "Reference" "C12"
-			(at 2.5 -2.667 180)
+			(at 2.5 2.286 180)
 			(layer "F.SilkS")
 			(uuid "b5e56502-3bcc-4ee2-acf0-50085aca2f61")
 			(effects
