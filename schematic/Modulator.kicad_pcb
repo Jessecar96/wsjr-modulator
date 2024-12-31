@@ -448,7 +448,7 @@
 		(descr "28-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 		(property "Reference" "U2"
-			(at 3.81 -2.786 0)
+			(at 3.686 35.314 0)
 			(layer "F.SilkS")
 			(uuid "9739e23d-b608-4ddd-8ddc-1ce1e3775666")
 			(effects
@@ -5908,7 +5908,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.7*2.5mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.7mm width 2.5mm Capacitor")
 		(property "Reference" "C14"
-			(at 2.373 2.286 0)
+			(at 2.3476 -2.286 0)
 			(layer "F.SilkS")
 			(uuid "860f38de-ece3-4579-a194-c329f32ae0ab")
 			(effects
@@ -10441,7 +10441,7 @@
 			(at 0 -4.5 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d43cae98-3f71-4992-9b21-2528e107492a")
+			(uuid "2bfec05c-ab4e-4b06-9be2-4641d075cc3e")
 			(effects
 				(font
 					(size 1 1)
@@ -10452,7 +10452,7 @@
 		(property "Value" "MountingHole_3.5mm_Pad"
 			(at 0 4.5 0)
 			(layer "F.Fab")
-			(uuid "9a26a8a7-750e-4c2f-beea-e677991f033d")
+			(uuid "f7589408-13c3-42fd-9fb0-e9003f9e0a59")
 			(effects
 				(font
 					(size 1 1)
@@ -10509,7 +10509,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "b2ef1bbe-603a-424b-a33c-12d3a92b52a5")
+			(uuid "271d6869-daf0-4c5e-b5de-2722956f5db0")
 		)
 		(fp_circle
 			(center 0 0)
@@ -10520,12 +10520,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "57925d5d-3de2-4284-85ae-1e1977fde111")
+			(uuid "d3abff0a-f102-471a-9f5d-9b69a01316a8")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "32fe6963-be9f-42ad-8268-bfbb69c22083")
+			(uuid "ef3c8322-a365-45c2-aebb-eb34e1ff086a")
 			(effects
 				(font
 					(size 1 1)
@@ -10539,7 +10539,7 @@
 			(drill 3.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "d24ef6e2-8630-476a-81f7-b7a27966ca00")
+			(uuid "9dd77303-f181-4a40-ba11-f9f5bb8e230b")
 		)
 	)
 	(footprint "AD9834:AD9834"
@@ -12999,7 +12999,7 @@
 			(at 0 -4.5 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d43cae98-3f71-4992-9b21-2528e107492a")
+			(uuid "b8b7f3f5-b02a-4cfd-86ae-fabe374abd21")
 			(effects
 				(font
 					(size 1 1)
@@ -13010,7 +13010,7 @@
 		(property "Value" "MountingHole_3.5mm_Pad"
 			(at 0 4.5 0)
 			(layer "F.Fab")
-			(uuid "9a26a8a7-750e-4c2f-beea-e677991f033d")
+			(uuid "66ec5621-e443-4526-95b2-60f55787f967")
 			(effects
 				(font
 					(size 1 1)
@@ -13067,7 +13067,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "b2ef1bbe-603a-424b-a33c-12d3a92b52a5")
+			(uuid "5f9a2eeb-9c46-4007-b262-83f2225bc4d0")
 		)
 		(fp_circle
 			(center 0 0)
@@ -13078,12 +13078,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "57925d5d-3de2-4284-85ae-1e1977fde111")
+			(uuid "96df0911-8d9d-49a4-a632-d231132f5021")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "32fe6963-be9f-42ad-8268-bfbb69c22083")
+			(uuid "5f7a0767-1e50-4c93-9071-893b34924164")
 			(effects
 				(font
 					(size 1 1)
@@ -13097,7 +13097,7 @@
 			(drill 3.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "d24ef6e2-8630-476a-81f7-b7a27966ca00")
+			(uuid "833605bd-86d7-48b8-81d1-c5732095a3d1")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
@@ -13580,7 +13580,7 @@
 			(at 0 -4.5 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d43cae98-3f71-4992-9b21-2528e107492a")
+			(uuid "785ee7d1-273f-42bb-a4a3-8b430eb96137")
 			(effects
 				(font
 					(size 1 1)
@@ -13591,7 +13591,7 @@
 		(property "Value" "MountingHole_3.5mm_Pad"
 			(at 0 4.5 0)
 			(layer "F.Fab")
-			(uuid "9a26a8a7-750e-4c2f-beea-e677991f033d")
+			(uuid "a7207071-9270-4d99-a9d0-a90d19367485")
 			(effects
 				(font
 					(size 1 1)
@@ -13648,7 +13648,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "b2ef1bbe-603a-424b-a33c-12d3a92b52a5")
+			(uuid "9cf4f48f-a47e-4526-b0d8-36e49a823062")
 		)
 		(fp_circle
 			(center 0 0)
@@ -13659,12 +13659,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "57925d5d-3de2-4284-85ae-1e1977fde111")
+			(uuid "8bc23678-9945-495d-a720-fd5683f6caf2")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "32fe6963-be9f-42ad-8268-bfbb69c22083")
+			(uuid "10ae414e-9934-45fd-ba04-199c812a2f53")
 			(effects
 				(font
 					(size 1 1)
@@ -13678,7 +13678,7 @@
 			(drill 3.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "d24ef6e2-8630-476a-81f7-b7a27966ca00")
+			(uuid "f0a6cffe-cd8d-4556-be1b-0f9fc7f1dda5")
 		)
 	)
 	(footprint "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
