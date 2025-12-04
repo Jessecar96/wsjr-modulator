@@ -6,4 +6,6 @@ The `schematic` folder contains the updated schematic and board layout files in 
 `schematic_orig` contains thetechknight's original EAGLE cad schematic.
 `code` contains code written for the Arduino based board written for  BASCOM-AVR.
 
+The software that runs on the Raspberry Pi can be found here: https://github.com/Jessecar96/wsjr-data-encoder
+
 License: https://creativecommons.org/licenses/by-nc-sa/4.0/
